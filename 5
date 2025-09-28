@@ -1,0 +1,12 @@
+include <stdio.h>
+#include<locale.h>
+
+int main() 
+{
+    setlocale(LC_CTYPE, "RUS");
+    puts("Введите число:");
+    int i;
+    scanf("%d", &i);
+    printf("%f", 1.0 / i);
+    return 0;
+}
