@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<locale.h>
+int main()
+{
+	double f, i, e;
+	setlocale(LC_CTYPE, "RUS");
+	char c = '!';
+	int d = 0;
+	puts("¬ведите значенние перменных\n");
+	scanf("%lf", &i); printf("i=%f;\n", i);
+	scanf("%lf", &f); printf("f=%f;\n", f);
+	scanf("%lf", &e);printf("e=%f;\n", e);
+	f = 3.14 * f;
+	printf("f=%f;\n", f);
+	d = 5 * e - 12;
+	printf("d=%d", d);
+	
+	
+
+	
+
+	
+}
